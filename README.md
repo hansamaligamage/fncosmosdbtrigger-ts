@@ -47,7 +47,8 @@ function sendNotifications (){
     let APIKey = "D9ApoNCnlWTPbO46sJVd";
     let senderId = "NotifyDEMO";
 
-    let data = {"user_id":userId,"api_key":APIKey,"sender_id":senderId,"to":"94713355704","message":"Test"};
+    let data = {"user_id":userId,"api_key":APIKey,"sender_id":senderId,"to":"94713355704",
+       "message":"Test"};
 
     fetch(smsurl, {
         method: "POST",

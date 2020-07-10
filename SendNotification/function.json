@@ -1,0 +1,15 @@
+{
+  "bindings": [
+    {
+      "type": "cosmosDBTrigger",
+      "name": "documents",
+      "direction": "in",
+      "leaseCollectionName": "leases",
+      "connectionStringSetting": "DBConnectionstring",
+      "databaseName": "trafficdata",
+      "collectionName": "vehicles",
+      "createLeaseCollectionIfNotExists": "true"
+    }
+  ],
+  "scriptFile": "../dist/SendNotification/index.js"
+}

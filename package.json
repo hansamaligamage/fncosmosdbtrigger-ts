@@ -12,7 +12,7 @@
   "dependencies": {
     "@types/node": "^14.0.20",
     "es6-promise": "^4.2.8",
-    "isomorphic-fetch": "^2.2.1"
+    "isomorphic-fetch": "^3.0.0"
   },
   "devDependencies": {
     "@azure/functions": "^1.2.2",
